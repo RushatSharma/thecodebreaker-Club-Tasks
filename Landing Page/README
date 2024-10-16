@@ -1,0 +1,26 @@
+Landing Page Project
+
+This project features a visually appealing landing page designed with simple HTML and CSS.
+
+Features
+
+- Responsive Design: The layout adjusts seamlessly for different screen sizes.
+- Engaging Visuals: Utilizes images of the sun and planets to create an inviting atmosphere.
+- Call to Action: A prominent button that encourages users to take the first step.
+
+Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+Setup Instructions
+
+1. Clone the Repository:
+   git clone [https://github.com/RushatSharma/thecodebreaker-Club-Tasks/tree/main/Landing%20Page]
+
+2. Navigate to the Project Directory:
+   cd LandingPage
+
+3. Open the HTML File:
+   Open `main.html` in your web browser to view the landing page.
