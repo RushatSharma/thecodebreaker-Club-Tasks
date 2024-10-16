@@ -1,5 +1,5 @@
 
-# Registration Form Project
+# Registration Form 
 
 This project implements a simple registration form that allows users to submit their information. The submitted data is stored in a JSON file on the server.
 
