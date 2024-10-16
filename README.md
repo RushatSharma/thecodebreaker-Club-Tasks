@@ -1,2 +1,6 @@
 # thecodebreaker-Club-Tasks
-Tasks given by the club "thecodebreakers" in order to be eligible for the next round of recruiting. 
+
+Welcome to the **TheCodeBreaker Club Tasks** repository! This project is a collection of tasks completed as part of their recruiting process. 
+
+In this repository, you will find two folders containing both the tasks of "Web development" domain.
+
