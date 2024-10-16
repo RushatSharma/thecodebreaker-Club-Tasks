@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-section">
+        <div class="main-image-container">
+            <img src="sun.png" alt="sun image" class="sun-image">
+            <img src="planets.jpg" alt="planets image" class="planets-image">
+        </div>
+        <div class="main-content">
+            <h1>Discover a New World of Possibilities.</h1>
+            <p>Take the first step towards creating something extraordinary. In a world filled with possibilities, every journey begins with a single idea. Together we’ll break through the limits of conventional thinking and inspire one another to turn bold visions into reality. The future is bright, and it starts with you! Join Us.
+            </p>
+            <button class="button">Start Your Journey</button>
+        </div><div class="stats1">
+            <div class="stats2">
+                <div class="stat-number">100K+</div>
+                <div class="stat-label">People to connect with.</div>
+            </div>
+            <div class="stats3">
+                <div class="stat-number">50K+</div>
+                <div class="stat-label">Ideas and Inspiration</div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="info-section">
+      <div class="info-box">
+        <div class="icon">★</div>
+        <h3>Innovate</h3>
+        <p>Ignite your creativity with groundbreaking ideas</p>
+      </div>
+      <div class="info-box">
+        <div class="icon">★</div>
+        <h3>Explore</h3>
+        <p>Discover new horizons and expand your possibilities.</p>
+      </div>
+      <div class="info-box">
+        <div class="icon">★</div>
+        <h3>Connect</h3>
+        <p>Join a community of like-minded innovators.</p>
+      </div>
+      <div class="info-box">
+        <div class="icon">★</div>
+        <h3>Achieve</h3>
+        <p>Transform your visions into reality with our support.</p>
+      </div>
+    </div>
+    <script>
+      function handleResize() {
+        const statsDiv = document.querySelector('.stats1');
+        if (window.innerWidth < 768) {
+          
+          if (statsDiv) {
+            statsDiv.style.display = 'none';
+          }
+        } else {
+        
+          if (statsDiv) {
+            statsDiv.style.display = 'flex';
+          }
+        }
+      }
+
+      handleResize();
+
+      window.addEventListener('resize', handleResize);
+    </script>
+    
+</body>
+</html>
+
